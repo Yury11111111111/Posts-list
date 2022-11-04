@@ -1,0 +1,33 @@
+.post {
+  display: flex;
+  justify-content: center;
+  margin: 2% 0;
+
+  .post__id {
+    font-size: 20px;
+    margin-right: 1%;
+  }
+  .post__mainpart {
+    width: 70vw;
+    box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+    border: 1px solid rgba(122, 122, 122, 0.5);
+    border-radius: 5px;
+    .post__mainpart-title {
+      margin-left: 1%;
+    }
+    .post__mainpart-body {
+      margin-left: 1%;
+    }
+    .post__mainpart-deleteButton {
+      margin: 2% 0 0 93%;
+    }
+  }
+}
+
+
+.addButton {
+  position: absolute;
+  top: 1%;
+  right: 3%;
+  border-radius: 10px;
+}
